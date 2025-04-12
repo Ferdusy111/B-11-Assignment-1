@@ -17,6 +17,15 @@ body{
     letter-spacing: 0%;
     text-align: left;
 }
+.section-description{ 
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+}
 
 /* ____________________________1st Part______________________ */
 /* nav style------------------------------- */
@@ -135,4 +144,83 @@ main{
     letter-spacing: 0%;
     text-align: left;
     margin-top: 12px;
+}
+/* ___________________________3rd Part___________________________ */
+/* vision style------------------------------ */
+.vision{
+    margin-top: 80px;
+}
+.vision-container{
+    display: flex;
+    margin-top: 32px;
+    gap: 24px;
+}
+.vision-container .card-1{
+    width:410.67px ;
+    height:325px ;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+}
+.vision-container .card-2{
+    width:410.67px ;
+    height:325px ;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgb(198, 228, 214);;
+    padding: 32px;
+}
+.vision-container .card-3{
+    width:410.67px ;
+    height:325px ;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background:rgb(247, 235, 207); ;
+    padding: 32px;
+}
+.card-title{ 
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+}
+.card-description{ 
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 12px;
+}
+.card-btn{
+    width: 122px;
+    height: 41px;
+    padding: 11px 20px 11px 20px; 
+    border-radius: 8px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.btn-1{
+    background-color:#5490F5 ;
+    margin-top: 24px;
+}
+.btn-2{
+    background-color:#09A15C ;
+    margin-top:48px ;
+
+}
+.btn-3{
+    background-color:#FFC239 ;
+    margin-top:24px ;
+
 }
