@@ -366,4 +366,95 @@ main{
 .news-2{
     margin-left: 32px;
 }
-/* ___________________________ */
+/* ______________________________7th part_______________________________ */
+/* donate style------------------------- */
+.donate{
+    height: 464px;
+    /* border: 2px solid blue; */
+    margin-top: 100px;
+}
+.donate-title{
+    text-align: center;
+}
+.donate-description{
+    text-align: center;
+    width:1104px ;
+    height:48px ;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+.donate-container{
+    width:1071px ;
+    height:128px ;
+    margin: 0 auto;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    /* border: 2px solid red; */
+}
+.donate-card-1{
+    width:240px ;
+    height:128px ;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    /* border: 2px solid blue; */
+}
+.donate-card-2{
+    width:240px ;
+    height:128px ;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    background-color: #C6E4D6;
+    /* border: 2px solid blue; */
+}
+.tk{ 
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.submit-item{
+    margin-top: 32px;
+}
+.submit-item .text-field{ 
+    width:1032px ;
+    height:64px ;
+    margin-left: 124px;
+    padding: 20px 40px 20px 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+}
+ .submit-item .text-field::placeholder{ 
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+} 
+.donate-btn{
+    width:151px ;
+    height: 56px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    margin-top: 32px;
+    margin-left: 564px;
+    background: rgb(0, 106, 80);
+    color:  rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+}
+
