@@ -235,7 +235,7 @@ main{
     margin-top: 32px;
     background-image: url(../assets/quote-bg.png);
     background-repeat: no-repeat;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .yunus-description{ 
     color: rgba(14, 14, 14, 0.8);
@@ -256,3 +256,114 @@ main{
     margin-bottom: 4px;
 }
 /* _________________________5th part__________________________ */
+/* your opinion style--------------------- */
+.your-opinion{
+    height: 529px;
+    margin-top: 80px;
+    /* background-color: #5490F5; */
+    /* border: 2px solid blue; */
+}
+.opinion-container{
+    height: 409px;
+    margin-top: 24px;
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1); 
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    border: 2px solid red;
+}
+.heading{
+    width:1216px ;
+    height:72px ;
+    box-sizing: border-box;
+    border: 5px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+}
+.heading li{
+    list-style: none;
+}
+.heading-item{ 
+    color: rgb(14, 14, 14);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+
+/* __________________________6th part______________________ */
+.recent-news{
+    height: 1406px;
+    margin-top: 80px;
+}
+.news{
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    background-color:#FFFFFF;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+    padding: 48px;
+    border-radius: 24px;
+}
+.news-img{
+    border-radius: 24px;
+}
+.news-container{
+    width:744px ;
+    height:290px ;
+    /* border: 2px solid yellowgreen; */
+    margin-left: 32px;
+    margin-bottom: 20px;
+}
+.news-title{ 
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+}
+.news-time{ 
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.box-description{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.news-btn{ 
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    padding: 13px 26px 13px 26px;
+    border: none;
+    margin-top: 32px;
+}
+.news-2{
+    margin-left: 32px;
+}
+/* ___________________________ */
