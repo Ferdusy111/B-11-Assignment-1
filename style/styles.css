@@ -532,4 +532,29 @@ main{
     text-align: center;
     margin-top: 25px;
 }
-
+/* _______________________________9th Part____________________________ */
+/* footer style------------------------------ */
+.footer {
+    width:1600px ;
+    height:226px ;
+    margin: 0 auto;
+    padding: 50px 160px 50px 160px;;
+    background: rgb(255, 255, 255);
+    /* border: 2px solid red; */
+}
+.footer-title{ 
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.media{
+    width: 120.55px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
