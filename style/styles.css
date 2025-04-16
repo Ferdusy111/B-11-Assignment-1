@@ -457,4 +457,79 @@ main{
     font-size: 18px;
     font-weight: 600;
 }
+/* ____________________________8th part_________________________________ */
+/* subscribe style------------------------------ */
+.subscribe{
+    height:395px ;
+    /* border: 2px solid red; */
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 80px 100px 80px 100px;
+}
+.subscribe-text{
+    width:750px ;
+    height:112px ;
+    margin: 0 auto;
+}
+.subscriber-title{ 
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.subscriber-description{ 
+    color: rgba(14, 14, 14, 0.7)
+    font-size: 16px;
+    font-weigh: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.subscribe.submit-item{
+    margin-top: 24px;
+}
+.subscribe .submit-item .text-field{ 
+    border-radius: 8px 0px 0px 8px;
+    padding: 18px 40px 18px 40px;
+    background: rgb(255, 255, 255);
+    width:600px ;
+    height:60px ;
+    border: none;
+}
+.subscribe .submit-item .text-field::placeholder{ 
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+} 
+.subscribe .submit-item .submit-button{
+    width:150px ; 
+    height:60px;
+    border-radius: 0px 50px 50px 0px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+}
+.subscribe-para{ 
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 25px;
+}
 
